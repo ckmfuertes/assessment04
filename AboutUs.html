@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <title>ISCO - About Us</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        * {
+            font-family: "Outfit", sans-serif;
+        }
+    </style>
+</head>
+
+<body class="flex flex-col">
+    <!-- Navigation Bar -->
+    <header class="flex justify-between items-center px-24 py-4 bg-[#0b1957] shadow-sm">
+        <h1 class="flex-1 text-4xl font-bold text-[#ffc05a]">I S C O</h1>
+
+        <nav class="flex-2 grid grid-cols-3 gap-16 text-white text-xl text-center">
+            <a href="" class="hover:text-[#f4ad42] transition-colors duration-300">Home</a>
+            <a href="" class="underline hover:text-[#f4ad42] transition-colors duration-300">About Us</a>
+            <a href="" class="hover:text-[#f4ad42] transition-colors duration-300">Contact</a>
+        </nav>
+
+        <div class="flex flex-1 justify-end">
+            <button class="bg-[#ffc05a] rounded-lg px-4 py-4 cursor-pointer text-[#0b1957] font-bold text-sm
+    hover:bg-[#f4ad42] transition-colors duration-300">
+                DOWNLOAD
+            </button>
+        </div>
+
+    </header>
+
+    <!-- Hero Section -->
+    <section class="w-full flex flex-col items-center">
+        <div data-aos="fade-in" class="flex flex-col items-center py-20 text-center">
+            <span class="text-3xl text-[#006bbb] font-medium">Intelligent Scholar Compliance Organizer</span>
+            <span class="text-9xl text-[#ffc05a] font-bold">I S C O</span>
+            <span class="text-3xl text-[#0b1957]">An RFID-Based Compliance and Activity Tracker <br> for Iskolar ng
+                Bataan with SMS Notification</span>
+            <button class="bg-[#ffc05a] rounded-lg px-12 py-2 cursor-pointer text-[#0b1957] font-bold mt-8
+    hover:bg-[#f4ad42] transition-colors duration-300">
+                WHAT IS ISCO?
+            </button>
+
+        </div>
+
+        <img data-aos="fade-in" src="img/InbImg.png" alt="INB Image" class="object-cover w-full">
+    </section>
+
+    <!-- Problem Statement -->
+    <div data-aos="zoom-in" class="w-[40%] flex flex-col self-center py-16 gap-8 text-center">
+        <p class="text-2xl text-[#0b1957]"><span class="text-[#ffc05a] font-bold">Iskolar ng Bataan</span> was meant to
+            uplift
+            scholars, yet it’s
+            now a cycle of <span class="text-[#006bbb] font-semibold">poor compliance tracking</span>, delaying
+            scholars, burdening
+            officers, and forcing
+            administrators to rely on <span class="text-[#006bbb] font-semibold">outdated systems</span>.</p>
+
+        <p class="text-2xl text-[#0b1957]">But we are <span class="text-[#ffc05a] font-bold">IT students</span>—when
+            there’s a
+            struggle, we
+            <span class="text-[#006bbb] font-semibold">innovate</span>.
+        </p>
+    </div>
+
+    <!-- Proposed User -->
+    <div class="grid grid-cols-3 gap-8 px-24">
+        <div data-aos="flip-left">
+            <div class="flex flex-col items-center rounded-lg overflow-hidden 
+    hover:shadow-lg hover:scale-105 transition-all duration-300">
+                <div class="w-full flex justify-center items-center bg-[#fddba0] py-4">
+                    <h1 class="text-[#0b1957] font-bold text-xl">SCHOLARS</h1>
+                </div>
+                <div class="flex-1 flex flex-col items-center justify-center gap-8 p-8 bg-[#f8f3ea]">
+                    <p class="text-lg text-[#0b1957] text-center">
+                        No more long lines, missing scorecards, or overlooked announcements. With a centralized feed,
+                        RFID
+                        logging, and SMS reminders, scholars stay on track with ease.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div data-aos="flip-left">
+            <div class="flex flex-col items-center rounded-lg overflow-hidden 
+    hover:shadow-lg hover:scale-105 transition-all duration-300">
+                <div class="w-full flex justify-center items-center bg-[#fddba0] py-4">
+                    <h1 class="text-[#0b1957] font-bold text-xl">OFFICERS</h1>
+                </div>
+                <div class="flex-1 flex flex-col items-center justify-center gap-8 p-8 bg-[#f8f3ea]">
+                    <p class="text-lg text-[#0b1957] text-center">
+                        No more manual follow-ups or scattered updates. Officers can post activities, share
+                        announcements,
+                        and manage RFID logging within their municipality effortlessly.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div data-aos="flip-left">
+            <div class="flex flex-col items-center rounded-lg overflow-hidden 
+    hover:shadow-lg hover:scale-105 transition-all duration-300">
+                <div class="w-full flex justify-center items-center bg-[#fddba0] py-4">
+                    <h1 class="text-[#0b1957] font-bold text-xl">ADMINS</h1>
+                </div>
+                <div class="flex-1 flex flex-col items-center justify-center gap-8 p-8 bg-[#f8f3ea]">
+                    <p class="text-lg text-[#0b1957] text-center">
+                        No more confusion or manual tracking. Admins manage the program through post management, scholar
+                        data monitoring, and report generation.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Features Introduction -->
+    <div data-aos="fade-up" class="w-[60%] flex flex-col self-center py-16 text-center">
+        <p class="text-[#0b1957] font-bold text-4xl">WHY</p>
+        <p class="text-[#ffc05a] font-bold text-6xl">I S C O?</p>
+        <p class="text-[#0b1957] text-xl mt-4">
+            The system introduces a smarter way to track compliance, transforming the
+            outdated processes of Iskolar ng Bataan with powerful features such as:
+        </p>
+    </div>
+
+    <!-- Features -->
+    <div class="w-[60%] self-center grid grid-cols-2 gap-4">
+        <div class="flex flex-col items-center gap-4">
+            <div data-aos="fade-up">
+                <div class="flex flex-col justify-center bg-[#f8f3ea] p-8 rounded-lg h-70 
+                hover:rotate-[-2deg] hover:scale-105 transition-transform duration-300">
+                    <div class="w-full flex gap-4 items-center">
+                        <h1 class="text-[#0b1957] text-4xl font-bold">1</h1>
+                        <h2 class="text-[#f9a620] text-3xl font-bold">Login Module</h2>
+                    </div>
+                    <div class="mt-4 text-[#0b1957] text-xl">
+                        <p>
+                            Enforces proper authentication between scholars, officers,
+                            and administrators. Ensures secure login and authorized access to relevant system
+                            functionalities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="100">
+                <div class="flex flex-col justify-center bg-[#f8f3ea] p-8 rounded-lg h-70 
+                hover:rotate-[-2deg] hover:scale-105 transition-transform duration-300">
+                    <div class="w-full flex gap-4">
+                        <h1 class="text-[#0b1957] text-4xl font-bold">3</h1>
+                        <h2 class="text-[#f9a620] text-3xl font-bold">Profile Management Module</h2>
+                    </div>
+                    <div class="mt-4 text-[#0b1957] text-xl">
+                        <p>
+                            Allows scholars, officers, and administrators to update personal information and reset
+                            passwords.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="200">
+                <div class="flex flex-col justify-center bg-[#f8f3ea] p-8 rounded-lg h-70 
+                hover:rotate-[-2deg] hover:scale-105 transition-transform duration-300">
+                    <div class="w-full flex gap-4">
+                        <h1 class="text-[#0b1957] text-4xl font-bold">5</h1>
+                        <h2 class="text-[#f9a620] text-3xl font-bold">Scholar Management Module</h2>
+                    </div>
+                    <div class="mt-4 text-[#0b1957] text-xl">
+                        <p>
+                            Supports data migration into the system via CSV and enables tracking of scholar records,
+                            including
+                            personal and compliance data.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="300">
+                <div class="flex flex-col justify-center bg-[#f8f3ea] p-8 rounded-lg h-70 
+                hover:rotate-[-2deg] hover:scale-105 transition-transform duration-300">
+                    <div class="w-full flex gap-4">
+                        <h1 class="text-[#0b1957] text-4xl font-bold">7</h1>
+                        <h2 class="text-[#f9a620] text-3xl font-bold">Notification Module and SMS Technology </h2>
+                    </div>
+                    <div class="mt-4 text-[#0b1957] text-xl">
+                        <p>
+                            Delivers timely system notifications for new posts and sends SMS alerts to scholars with
+                            insufficient compliance records.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="400">
+                <div class="flex flex-col justify-center bg-[#f8f3ea] p-8 rounded-lg h-70 
+                hover:rotate-[-2deg] hover:scale-105 transition-transform duration-300">
+                    <div class="w-full flex gap-4">
+                        <h1 class="text-[#0b1957] text-4xl font-bold">9</h1>
+                        <h2 class="text-[#f9a620] text-3xl font-bold">RFID Logging Module</h2>
+                    </div>
+                    <div class="mt-4 text-[#0b1957] text-xl">
+                        <p>
+                            Establishes the process of recording compliance of each scholar through RFID scanning, with
+                            start-and-end controls for each activity.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex flex-col justify-center items-center gap-4 mt-10">
+            <div data-aos="fade-up" data-aos-delay="50">
+                <div class="flex flex-col justify-center bg-[#f8f3ea] p-8 rounded-lg h-70 
+                hover:rotate-[2deg] hover:scale-105 transition-transform duration-300">
+                    <div class="w-full flex gap-4">
+                        <h1 class="text-[#0b1957] text-4xl font-bold">2</h1>
+                        <h2 class="text-[#f9a620] text-3xl font-bold">Admin Management Module</h2>
+                    </div>
+                    <div class="mt-4 text-[#0b1957] text-xl">
+                        <p>
+                            Manages the creation and distribution of administrator accounts for secure system control.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="150">
+                <div class="flex flex-col justify-center bg-[#f8f3ea] p-8 rounded-lg h-70 
+                hover:rotate-[2deg] hover:scale-105 transition-transform duration-300">
+                    <div class="w-full flex gap-4">
+                        <h1 class="text-[#0b1957] text-4xl font-bold">4</h1>
+                        <h2 class="text-[#f9a620] text-3xl font-bold">Dashboard Module</h2>
+                    </div>
+                    <div class="mt-4 text-[#0b1957] text-xl">
+                        <p>
+                            Provides real-time summaries of registered, active, and inactive scholars, locality
+                            distribution, and scheduled activities.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="250">
+                <div class="flex flex-col justify-center bg-[#f8f3ea] p-8 rounded-lg h-70 
+                hover:rotate-[2deg] hover:scale-105 transition-transform duration-300">
+                    <div class="w-full flex gap-4">
+                        <h1 class="text-[#0b1957] text-4xl font-bold">6</h1>
+                        <h2 class="text-[#f9a620] text-3xl font-bold">Post Management Module</h2>
+                    </div>
+                    <div class="mt-4 text-[#0b1957] text-xl">
+                        <p>
+                            Provides administrators and officers with organized tools to create edit.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="350">
+                <div class="flex flex-col justify-center bg-[#f8f3ea] p-8 rounded-lg h-70 
+                hover:rotate-[2deg] hover:scale-105 transition-transform duration-300">
+                    <div class="w-full flex gap-4">
+                        <h1 class="text-[#0b1957] text-4xl font-bold">8</h1>
+                        <h2 class="text-[#f9a620] text-3xl font-bold">Scholar Feed Module</h2>
+                    </div>
+                    <div class="mt-4 text-[#0b1957] text-xl">
+                        <p>
+                            Displays posts, along with essential information such as compliance
+                            status, ensuring scholars can easily access the latest updates and information.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div data-aos="fade-up" data-aos-delay="450">
+                <div class="flex flex-col justify-center bg-[#f8f3ea] p-8 rounded-lg h-70 
+                hover:rotate-[2deg] hover:scale-105 transition-transform duration-300">
+                    <div class="w-full flex gap-4">
+                        <h1 class="text-[#0b1957] text-4xl font-bold">10</h1>
+                        <h2 class="text-[#f9a620] text-3xl font-bold">Report Generation Module</h2>
+                    </div>
+                    <div class="mt-4 text-[#0b1957] text-xl">
+                        <p>
+                            Generates customizable reports from scholar records and activity logs, allowing
+                            administrators to securely download data.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Members -->
+    <div class="py-16 px-24">
+        <div data-aos="fade-in" class="flex items-center gap-4">
+            <hr class="flex-1 h-[0.4vh] bg-[#0b1957]">
+            <h2 class="text-4xl text-[#006bbb] font-bold">MEET <span class="text-[#ffc05a]">THE ISCO TEAM</span></h2>
+            <hr class="flex-1 h-[0.4vh] bg-[#0b1957]">
+        </div>
+        <div class="py-8 px-4 grid grid-cols-4 gap-8">
+            <div data-aos="flip-left">
+                <div
+                    class="flex flex-col items-center p-4 rounded-md hover:shadow-2xl hover:scale-105 transition-all duration-300">
+                    <!-- Member image -->
+                    <img src="img/BalajoPic.png" alt="BalajoPic"
+                        class="rounded-full border-8 border-[#006bbb] p-2 w-50 h-50 mb-4">
+
+                    <!-- Member Details -->
+                    <h3 class="text-[#0b1957] text-lg font-bold">Maridel Faith Odessa Balajo</h3>
+                    <h4 class="text-[#006bbb] text-md font-semibold">UI/UX Designer</h4>
+                    <p class="text-[#006bbb] text-sm">Balanga, Bataan</p>
+
+                    <br>
+
+                    <p class="text-center text-[#0b1957] text-md">Designs intuitive, visually appealing, and accessible
+                        user
+                        interfaces while creating wireframes and interactive prototypes to guide the development
+                        process.
+                    </p>
+                </div>
+            </div>
+
+            <div data-aos="flip-left" data-aos-delay="100">
+                <div
+                    class="flex flex-col items-center p-4 rounded-md hover:shadow-2xl hover:scale-105 transition-all duration-300">
+                    <!-- Member image -->
+                    <img src="img/BaltazarPic.png" alt="BaltazarPic"
+                        class="rounded-full border-8 border-[#006bbb] p-2 w-50 h-50 mb-4">
+
+                    <!-- Member Details -->
+                    <h3 class="text-[#0b1957] text-lg font-bold">Noemi Angelie Baltazar</h3>
+                    <h4 class="text-[#006bbb] text-md font-semibold">Documenter</h4>
+                    <p class="text-[#006bbb] text-sm">Orani, Bataan</p>
+
+                    <br>
+
+                    <p class="text-center text-[#0b1957] text-md">Prepares and organizes project documentation and the
+                        capstone manuscript to ensure clarity, accuracy, proper system documentation, and easy
+                        reference.</p>
+                </div>
+            </div>
+
+            <div data-aos="flip-left" data-aos-delay="200">
+                <div
+                    class="flex flex-col items-center p-4 rounded-md hover:shadow-2xl hover:scale-105 transition-all duration-300">
+                    <!-- Member image -->
+                    <img src="img/FuertesPic.png" alt="FuertesPic"
+                        class="rounded-full border-8 border-[#006bbb] p-2 w-50 h-50 mb-4">
+
+                    <!-- Member Details -->
+                    <h3 class="text-[#0b1957] text-lg font-bold">Cherwen Kirk Fuertes</h3>
+                    <h4 class="text-[#006bbb] text-md font-semibold">Full Stack Developer</h4>
+                    <p class="text-[#006bbb] text-sm">Abucay, Bataan</p>
+
+                    <br>
+
+                    <p class="text-center text-[#0b1957] text-md">Develops and manages all coding tasks, front-end
+                        implementation, database
+                        operations, and API
+                        integrations to ensure secure, efficient, and scalable system functionality.</p>
+                </div>
+            </div>
+
+            <div data-aos="flip-left" data-aos-delay="300">
+                <div
+                    class="flex flex-col items-center p-4 rounded-md hover:shadow-2xl hover:scale-105 transition-all duration-300">
+                    <!-- Member image -->
+                    <img src="img/TriaPic.png" alt="TriaPic"
+                        class="rounded-full border-8 border-[#006bbb] p-2 w-50 h-50 mb-4">
+
+                    <!-- Member Details -->
+                    <h3 class="text-[#0b1957] text-lg font-bold">Robbie Tria</h3>
+                    <h4 class="text-[#006bbb] text-md font-semibold">Quality Assurance</h4>
+                    <p class="text-[#006bbb] text-sm">Abucay, Bataan</p>
+
+                    <br>
+
+                    <p class="text-center text-[#0b1957] text-md">Conducts systematic testing procedures to identify and
+                        resolve software
+                        defects, ensuring the system meets functionality, security, and usability standards.</p>
+                </div>
+            </div>
+        </div>
+
+        <div data-aos="fade-in" class="flex items-center gap-4">
+            <hr class="flex-1 h-[0.4vh] bg-[#0b1957]">
+            <h2 class="text-4xl text-[#006bbb] font-bold">FROM <span class="text-[#ffc05a]">BSIT-NW4C</span></h2>
+            <hr class="flex-1 h-[0.4vh] bg-[#0b1957]">
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-[#0b1957] text-white py-8 px-24">
+        <div class="flex flex-col md:flex-row justify-between items-center gap-6">
+            <!-- Program Info -->
+            <div class="text-center md:text-left">
+                <h3 class="text-xl font-bold text-[#ffc05a]">I S C O</h3>
+                <p class="text-sm text-[#f8f3ea]">An RFID-Based Compliance and Activity Tracker for Iskolar ng
+                    Bataan with SMS Notification</p>
+                </p>
+            </div>
+
+            <!-- Navigation Links -->
+            <div class="flex gap-6 text-white text-sm font-semibold">
+                <a href="#" class="hover:text-[#ffc05a] transition-colors">Home</a>
+                <a href="#" class="hover:text-[#ffc05a] transition-colors">About</a>
+                <a href="#" class="hover:text-[#ffc05a] transition-colors">Contact</a>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="text-center md:text-right text-sm text-[#f8f3ea]">
+                <p class="flex items-center justify-center md:justify-end gap-2">
+                    <i class="fas fa-envelope text-white"></i>
+                    iscoapp.iskolarngbataan@gmail.com
+                </p>
+                <p class="flex items-center justify-center md:justify-end gap-2">
+                    <i class="fas fa-mobile-alt text-white"></i>
+                    0956-847-5548
+                </p>
+            </div>
+        </div>
+
+        <hr class="my-6 border-[#006bbb]">
+
+        <p class="text-center text-[#f8f3ea] text-xs">&copy; 2025 ISCO | Developed by ISCO Team</p>
+    </footer>
+
+    <script>
+        AOS.init({
+            duration: 800,
+            once: true,
+        });
+    </script>
+</body>
+
+</html>
